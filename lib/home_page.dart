@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_exam/detail_page.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 class HomePage extends StatefulWidget {
@@ -257,7 +258,12 @@ class _HomePageState extends State<HomePage> {
                                               borderRadius:
                                                   BorderRadius.circular(12)),
                                           child: IconButton(
-                                            onPressed: () {},
+                                            onPressed: () {
+                                              Navigator.of(context).push(
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          DetailPage()));
+                                            },
                                             icon: const Icon(Icons.add,
                                                 color: Colors.white, size: 20),
                                           ),
@@ -324,7 +330,12 @@ class _HomePageState extends State<HomePage> {
                                         borderRadius:
                                             BorderRadius.circular(12)),
                                     child: IconButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.of(context).push(
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    DetailPage()));
+                                      },
                                       icon: const Icon(Icons.add,
                                           color: Colors.white, size: 20),
                                     ),
@@ -403,7 +414,12 @@ class _HomePageState extends State<HomePage> {
                                               borderRadius:
                                                   BorderRadius.circular(12)),
                                           child: IconButton(
-                                            onPressed: () {},
+                                            onPressed: () {
+                                              Navigator.of(context).push(
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          DetailPage()));
+                                            },
                                             icon: const Icon(Icons.add,
                                                 color: Colors.white, size: 20),
                                           ),
@@ -470,7 +486,12 @@ class _HomePageState extends State<HomePage> {
                                         borderRadius:
                                             BorderRadius.circular(12)),
                                     child: IconButton(
-                                      onPressed: () {},
+                                      onPressed: () {
+                                        Navigator.of(context).push(
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    DetailPage()));
+                                      },
                                       icon: const Icon(Icons.add,
                                           color: Colors.white, size: 20),
                                     ),

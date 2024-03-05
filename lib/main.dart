@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_exam/delivery_page.dart';
+import 'package:flutter_exam/onboarding_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Sora'),
       debugShowCheckedModeBanner: false,
-      home: const DeliveryPage(),
+      home: const OnBoardingPage(),
     );
   }
 }
